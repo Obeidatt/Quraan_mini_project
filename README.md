@@ -43,4 +43,26 @@ This project integrates speech recognition and text retrieval techniques to brid
    git clone https://github.com/Obeidatt/Quraan_mini_project.git
    cd Quraan_mini_project
 
+2. **Install dependencies::**
+
+   ```bash
+   pip install -r requirements.txt
+
+---
+
+## 🎮 Usage
+
+### Prepare your audio file:
+- Ensure the audio is a clear recitation of a Qur'anic verse.
+- Supported formats: .wav, .mp3
+
+### Run the main script:
+```bash
+python main.py --audio_path data/sample_audio/your_audio_file.wav
+```
+### Example Output:
+```yaml
+Detected Surah: Al-Fatiha (1)
+Detected Ayah: 1
+
 
